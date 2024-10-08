@@ -22,7 +22,7 @@ app.mount("/static", StaticFiles(directory=static_dir))
 # Set up Jinja2 template for rendering HTML files
 templates = Jinja2Templates(directory=templates_dir)
 # External API URL (replace with the actual URL)
-EXTERNAL_API_URL = "https://weather1003.azurewebsites.net/info"
+EXTERNAL_API_URL = "https://weatherrcw1002.azurewebsites.net/info"
  
 def get_external_info():
     try:
